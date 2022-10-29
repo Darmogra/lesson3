@@ -35,3 +35,6 @@ class Auto:
         self.fuel = brand_list[self.brand]['fuel']
         self.strength = brand_list[self.brand]['strength']
         self.consumption = brand_list[self.brand]['consumption']
+brands_of_car = {'тазік':{'fuel': 2, 'strength': 180, 'consumption' : 10},
+                'корито':{'fuel': 5, 'strength': 174, 'consumption' : 17},
+                'феррарі':{'fuel': 70, 'strength': 2000, 'consumption' : 233}},
