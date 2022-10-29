@@ -23,3 +23,15 @@ class Human:
         pass
     def clear_home(self):
         pass
+    def days_indexes(self, day):
+        pass
+    def is_alive(self):
+        pass
+    def live(self, day):
+        pass
+class Auto:
+    def __init__(self, brand_list):
+        self.brand = random.choice(list(brand_list))
+        self.fuel = brand_list[self.brand]['fuel']
+        self.strength = brand_list[self.brand]['strength']
+        self.consumption = brand_list[self.brand]['consumption']
